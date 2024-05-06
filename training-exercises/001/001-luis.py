@@ -6,31 +6,19 @@
 
 # Hints:
 
-input()
-print()
 def funcion():
-    condicion1 = 
-    condicion2 = 
-    resultado = 
-    if condicion1 and condicion2:
-        # haz x
+    x = float(input("Escribe un número"))
+    y = float(input("Escribe un número"))
+
+    z = x + y
+    w = x / y
+
+    if z<100:
+        return print(w)
     else:
-        # haz y
-return resultado
+        return print(z)
 
-x = float(1)
-y = float(2)
-
-z = x + y
-w = x / y
-
-if z<100 :
-    w
-else:
-    z 
-return resultado
-
-
+funcion()
 
 
 #aaaaa
